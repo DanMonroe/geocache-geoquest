@@ -1,0 +1,188 @@
+Geo Quest Release Notes
+
+***************************************
+Release 9:
+
+It seems that there is an issue with having to download anything in order for my caches to be approved.  I had to compromise and make it work via Parchment to make it playable online.  The only problem with this is that the original game was too large to fit within the ZCode memory limits so I had to cut some of the game.
+
+Changed:
+* From Glux to ZCode, version 8
+
+Removed:
+* I had to remove a couple dozen rooms, actions, scenery objects.
+* The entire twisty passage maze. (stop cheering)  Now it is a straight shot from the waterfall, through the caves, and up to the small park.
+
+Added:
+* The web site pages using Parchment (http://code.google.com/p/parchment/) to run the game.  
+
+URLS:
+* Home page: http://geocache-if.appspot.com/
+* Game page: http://geocache-if.appspot.com/geoquest.html
+* Help page: http://geocache-if.appspot.com/ifhelp.html
+
+Note:  The direction to the waypoint in the status lines run really slow.
+
+***************************************
+Release 8:
+
+Changed:
+* Re-ordered the multi-stage cache (Geo3).  Now it goes from small park, lost pond, boardwalk, emerald cave, canyon island.
+  This is so the player won't have to do two mazes in a row.
+
+Added:
+* Put in final coordinates
+* poison ivy, undergrowth, low branch as backdrops in the briar patch.
+
+Removed:
+* Removed take all
+* Removed the Beta tester note at the beginning.
+
+Changed:
+* Starts in "cache mode" instead of "game mode"  The command "switch mode" switches between the two.
+* Switched from: Use full-length room descriptions, American dialect, and the serial comma. Use MAX_SYMBOLS of 7000.
+  to: Use full-length room descriptions, American dialect, no scoring, and the serial comma. Use memory economy. Use MAX_SYMBOLS of 7000.
+
+***************************************
+Release 7:
+
+Some things to try:
+
+* Get the 2x4 off of the tree house and try to hit the squirrel with it.
+* Throw a stone at the squirrel/instructor/lure.
+* skip stones in the pebble shore.
+* give snacks to ghost
+
+
+Fixed:
+* Mailbox doesn't report damage until it is actually damaged.
+* consult gps about [a cache]
+* Finally figured out why my random "not found" search results were not being used. had to unlist a rule:
+  The can't search unless container or supporter rule is not listed in any rulebook.
+* Can't take the beehive.
+* Finally fixed turning on/off sinks/oven in the kitchen and bathroom.
+
+Added:
+* Additional ghost topics (and apparition synonym)
+* The verb shake
+* printed names to the geo1 - geo5
+* The verb scold
+* A paragraph of text to the GPS pamphlet instructions, "When you set the GPS to a waypoint, it reports the direction you need to go on the top-right status bar. It will also tell you where to go when you type 'X GPS'.  Note that the GPS reports the direction to the location the cache or waypoint is SUPPOSED to be located.  If the cache is moved somehow, the GPS may not be accurate."
+  This accurately depicts real life caching; sometimes the caches get moved for one reason or another.
+* move the squirrel around a bit after solving the puzzle (not when indoors, in water, underground, or on supporters)
+* can now set the gps to Dojo (to find the Master) after visiting the grounds (and carry the gps)
+* dead people in the cemetery (just in case someone might want to give them worms or something).
+* The verb reach [limb]
+* Can now fish from the weeping willow (or limb) with only a baited line (no pole) go ahead.. try it. :) 
+
+Changed:
+* Updated display of gps now that the waypoints are named.
+* The weeping willow is not listed in its own paragraph on the pebble shore.
+* Hopefully made it easier to traverse the weeping willow
+
+
+***************************************
+Release 6:
+
+Added:
+* Scenery in trail head
+* A "lid" part to geo2
+* A cache is usually not lockable. (a cache is a type of container)
+* some rocks in the rocky path. (scenery)
+* Google appengine web page.
+
+Changed:
+* Updated reveal of final cache.
+* Name of intermediate waypoints (i.e., Geo3-2 -> Waypoint2 )
+
+***************************************
+Release 5:
+
+Fixed:
+* "The fakemailbox is out of reach." - printed name now mailbox
+* "You can see a mailbox (in which is a package (closed)) here." - Added rule to not report the package closed.
+* Don't allow the player to go anywhere after tha mail is delivered prior to opening the mail package 
+	(so now the squirrel doesn't have to break into the house to steal the package).
+* Properly reports that the top shelf is fixed in place when on the ladder.
+* There were two opening messages for geo3-2. Removed one.
+* Exit from the waterfall pool was incorrectly reported as northeast. Changed to north.
+
+Changed:
+* Removed the water from the water bottle. Added some code to still allow drinking. 
+  Note: at no point is it ever required for the player to do anything with the water, including drinking it.
+  However, I added a case where the player could give the bottle to the assistants on the dojo grounds. :)
+
+Added:
+* Exit Lister by Eric Eve. Now you can see which way you can go in the mazes.
+* When the GPS is impaired, when you examine the gps it will tell you why.
+* The indefinite article for a cache is "the"
+* If you have the chips or the oreos and go oaver the waterfall, the name changes slightly.
+* A non-default message when waiting in the waterfall pool.
+
+***************************************
+Release 4:
+
+Three more beta testers!  Welcome Scott, Dav, and Eric!
+
+Fixed:
+* Changed a lot of it's to its
+* Capitalization
+* Fixed going down/jumping from the weeping willow
+* Caches all start out of play (except one - ghost) to fix the take all method of getting the caches.
+* Fixed an issue where if the player tried to "open cache" it would automatically take the cache
+  and get around the puzzle
+* Fixed gps path reporting when going from 3-2 to 3-3
+
+Changed:
+* Now the GPS reports directions to the (starting) room for each cache. This really only affected one cache
+  that moved from its original starting location.
+* The Briar patch is no longer a maze (this IS for novice players... bad developer... bad)
+* The Twisted Passages are no longer a maze, but I added a few addiotional rooms to make it a bit harder to find the lost pond.
+* GPS is impaired now in three regions; in water, briar patch, and twisty passages.
+
+Added:
+* Headstones in the cemetery... with names of my geocaching friends :)
+* Can now examine the gps in the dark (since it is backlit)
+* More hints to the Master dialog.
+* numerous synonyms
+* Added a double status line that displays the GPS setting in a better format.
+* waterfall pool description.
+* random chance for exiting the waterfall pool  (2 in 9)
+* actions looking under/behind something visible as searching the noun.
+
+Removed:
+* Removed all the cache logs from the caches.  Now all the player has to do is to open the cache and
+  it pretends there is a real log to read.
+* The rope.  I may add it later.  I had intended for the player to try to use it to cross the canyon (unsuccessfully) 
+* The backpack.  I liked how it put stuff into the backpack automatically, but didn't like that you couldn't easily use/examine
+  the items inside the backpack without first taking it out explicitly.
+
+***************************************
+Release 3:
+
+Fixed:
+* Opening the 2nd cache container is working as designed.
+* Fixed ambiguous flashlight name (with its batteries)
+* Changed the steel ladder and latch from scenery to a backdrop so it can be seen from above.
+
+***************************************
+Release 2: July 31, 2009
+
+Added:
+Two additional Beta testers, Johan and Poster.  Thanks a lot!
+
+New Commands:
+* HELP as asking for help.
+* HINT/HINTS as asking for hints.
+* CREDIT/CREDITS/ABOUT as asking for credit.
+
+New Synonyms:
+* Understand GRAB something as taking.
+* Understand YANK something as pulling.
+
+Fixed:
+* typo sill to still
+
+***************************************
+Release 1: July 29, 2009
+
+First release to my first Beta tester (a geocaching friend)

@@ -1,0 +1,56 @@
+body {  
+	background: #2f2f2f; background-image: url("geoquest_bg.jpg");
+	background-repeat: no-repeat; background-position: top left;
+	margin: 0px; padding: 0px; scrollbar-base-color: #2f2f2f;
+	color: f7f7cc;
+	font-family: helvetica;
+	font-size: 16px;
+}
+.geoquest {
+	margin-left:20px;
+	margin-top:75px;
+	padding-top:25px;
+	width:820px;
+	overflow:auto;
+/*	overflow: scroll;*/
+	height: 550px;
+	
+ scrollbar-face-color: #cacaca;
+ scrollbar-highlight-color: #cacaca;
+ scrollbar-3dlight-color: #cacaca;
+ scrollbar-darkshadow-color: #cacaca;
+ scrollbar-shadow-color: #cacaca;
+ scrollbar-arrow-color: #000000;
+ scrollbar-track-color: #cacaca;
+
+
+}
+a:img {
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: #bbbb66;
+}
+a:hover { 
+  color: #ffffff;
+  text-decoration: underline;
+}
+a:visited { 
+  color: #ffffff;
+}
+.home {
+	text-align: left;
+	margin: 12px 0px 0px 10px;
+}
+.home table {
+	border: none;
+	width: 820px;
+}
+.geoquest h1 {
+	margin-top: 20px;
+	
+}
+.clear {
+	clear:both;
+}
