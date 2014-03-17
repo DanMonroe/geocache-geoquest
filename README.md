@@ -12,7 +12,7 @@ I used Inform7 to build GeoQuest.  Inform is a design system for interactive fic
 To open the inform file, go to http://inform7.com/ to download the compiler.
 
 Parchment
-=========
+---------
 In the parchment directory, you'll find the HTML source code in order to run GeoQuest via a web browser.
 
 https://code.google.com/p/parchment/
